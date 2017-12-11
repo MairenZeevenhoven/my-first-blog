@@ -1,0 +1,142 @@
+/*
+      classes regarding the index page
+
+
+*/
+.CreateAccountButton, .LoginButtonHomepage {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.TopImage {
+  width: 100%;
+  max-height: 600px;
+}
+
+
+
+/*
+      classes regarding the navigation bar
+*/
+.floatMenuBarRight {
+  float: right;
+}
+/*
+      classes regarding the login screen
+*/
+
+
+.whitespaceLogin {
+  padding-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.LoginButtonLoginScreen {
+  align-self:center;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 5%;
+}
+
+.ForgotPasswordLink {
+  text-align: center;
+  padding-top: 3%;
+  color: black;
+}
+
+.backgroundImage {
+  background-image:url(http://tips4travel.org/blog/wp-content/uploads/2015/07/France-Travel3.jpg);
+  min-height: 50%;
+  min-width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*
+      classes regarding the personal page
+*/
+.ProfilePictureContainer {
+  border: 3px solid black;
+  width: 30%;
+  height: 40%;
+  max-width: 300px;
+  float: left;
+  position: relative;
+
+
+}
+.ProfilePicture{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.WhiteSpacePI{
+  height: 20%;
+
+
+}
+.CreateBlog {
+transform: translateX(50%);
+
+}
+.EditDeleteBlog {
+  float: right;
+  margin-top: 1%;
+}
+.BlogPost {
+  background-color: #D72722;
+  margin-top: 3%;
+}
+
+.border {
+  border: 3px solid black;
+}
+.AlignProfileButton{
+  margin: auto;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate( -50%, -50%);
+}
+.separate {
+  min-height: 3%;
+  clear: both;
+}
+.PersonalInformation {
+  float: left
+
+}
+
+.PersonalInfo {
+  display: block;
+  padding: 3%;
+
+}
+
+.LikeButton, .DislikeButton {
+  margin : 0.5%;
+  float: right;
+
+
+}
+
+
+/*
+      classes regarding the createBlog HomePage
+*/
+.InputBorder {
+  border: 3px;
+}
+/*
+      classes regarding the account creation page
+*/
